@@ -91,6 +91,12 @@ The plugin outputs an unstyled `.mux-embed` wrapper div. Add bottom margin or ot
 }
 ```
 
+## GitHub Pages compatibility
+
+This plugin is compatible with Jekyll sites deployed to GitHub Pages **when the site is built through a custom GitHub Actions workflow**.
+
+It is **not** compatible with the default GitHub Pages safe-mode build, which does not load custom plugins.
+
 ## License
 
 MIT — see [LICENSE.txt](LICENSE.txt).
